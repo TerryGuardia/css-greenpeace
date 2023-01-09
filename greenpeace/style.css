@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+}
+.container {
+    display: flex;
+}
+.container div {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.item1 {
+    background-color: #81c254;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item1 h1 {
+    margin-left: 10%;
+}
+.item1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid white;
+    width: 65%;
+    margin-left: 10%;
+}
+.item2 {
+    background-image:url(/greenpeace/AGRICULTURE-Theme-1920x1280-550x368.jpg) ;
+    background-size: cover;
+}
+.item3 {
+    background-image:url(/greenpeace/NUCLEAIRE-Theme-1920x1280-550x368.jpg) ;
+    background-size: cover;
+}
+.item4 {
+    background-image: url(/greenpeace/CLIMAT-Theme-1920x1280-550x368.jpg);
+    background-size: cover;
+}
+.item5 {
+    background-image: url(/greenpeace/FORET-Theme-1920x1280-550x368.jpg);
+    background-size: cover;
+}
+.item6 {
+    background-image: url(/greenpeace/OCEAN-Theme-1920x1280-rSH-550x368.jpg);
+    background-size: cover;
+}
+img {
+    width: 80px;
+    height: 60px;
+    margin-bottom: 10%;
+}
